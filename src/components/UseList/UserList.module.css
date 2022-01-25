@@ -1,0 +1,37 @@
+.product-list {
+    width:100%;
+}
+.table {
+    width:100%;
+}
+
+th,td {
+    text-align:left;
+    padding:8px;
+}
+
+.table th {
+   background-color: black;
+   color:#ffffff;
+   text-align: left; 
+}
+.table tbody {
+    text-align: left;
+    background: #f6f8ff;
+}
+
+tr:nth-child(even) {
+    background-color: Lightgreen;
+}
+
+tr:nth-child(even):hover {
+    background-color: rgb(81, 255, 81);
+}
+tr:nth-child(odd):hover {
+    background-color: rgb(85, 140, 241);
+}
+.add {
+   float: left;
+   padding: 10px;
+   margin-bottom: 5px;
+}
